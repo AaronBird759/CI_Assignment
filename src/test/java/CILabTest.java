@@ -21,7 +21,7 @@ public class CILabTest {
     @Test
     public void detectCapitalUseTest1() {
         myString.setString("this string contains 0 capital letters");
-        assertFalse(myString.detectCapitalUse());
+        assertTrue(myString.detectCapitalUse());
     }
 
     @Test
